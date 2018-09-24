@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1em;
+}
+
+span {
+    font-size: 2em;
+    color: green;
+}
+
+body {
+    background-image: url(material/Website_Back.png);
+    max-width: 1920px;
+    height: 3000px;
+}
+
+.head {
+    margin: 20px 20px 0px 20px;
+    border: 1px solid red;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.VolixLogo {
+    display: flex;
+    align-items: center;
+    height: 47px;
+}
+
+.VolixLogo img {
+    height: 100%;
+}
+
+.overhead {
+    max-width: 382px;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.overhead img {
+    margin-left: 5px;
+    position: relative;
+    display: flex;
+}
+
+.nav {
+    border: 1px solid green;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.nav ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.news {
+    border: 1px solid yellow;
+    margin: 10px 60px 0px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.newsmain {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 5px 7px 0px;
+    width: 930px;
+    height: 100%;
+    position: relative;
+}
+
+.textmain {
+    position: absolute;
+    top: 502px;
+    left: 10px;
+}
+
+.newsmain ul {
+    list-style-type: none;
+}
+
+.newsmain img {
+    width: 100%;
+}
+
+.newsside {
+    border: 1px solid purple;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px 7px 0px;
+    width: 461px;
+    position: relative;
+}
+
+.newsside ul {
+    list-style-type: none;
+}
+
+.newsside img {
+    width: 100%;
+    margin-top: 3px;
+}
+
+.news2 {
+    border: 1px solid yellow;
+    margin: 0px 60px 0px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.newsdown {
+    border: 1px solid purple;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px 10px 0px;
+    position: relative;
+    width: 1400px;
+    clear:both;
+}
+
+.newsdown img {
+    width: 100%;
+}
+
+.newsdown ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.newsdown1 {
+    height: 100%;
+    margin-right: 3.55px;
+}
+
+.newsdown2 {
+    height: 100%;
+    margin-left: 3.55px;
+    margin-right: 3.55px;
+    
+}
+
+.newsdown3 {
+    height: 100%;
+    margin-left: 3.55px;
+}
+
+.newslist {
+    margin: 20px 20px 0px 20px;
+    height: 7.5%;
+}
+
+.listone {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.listone p span {
+    margin-bottom: 10px;
+}
+
+.listone img {
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+    height: 91%;
+    margin: 10px 10px 10px 10px
+}
+
+.listtwo {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    border-bottom: 1px solid white;
+}
+
+.listtwo p span {
+    margin-bottom: 10px;
+}
+
+.listtwo img {
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+    height: 91%;
+    margin: 10px 10px 10px 10px
+}
