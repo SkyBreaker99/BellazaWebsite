@@ -53,6 +53,10 @@ body {
     border-left: 1px solid white;
 }
 
+.footerup li:first-child {
+    border: none;
+}
+
 .Discord {
     display: flex;
     flex-direction: row;
@@ -122,7 +126,12 @@ body {
 .nav {
     border: 1px solid green;
     display: flex;
+    position: relative;
     flex-direction: row;
+    width: 100%;
+}
+
+.nav nav {
     width: 100%;
 }
 
@@ -174,6 +183,14 @@ nav li:hover::after {
 
 .nav ul img {
     width: 40%;
+    margin: auto;
+    display: inline-block;
+}
+
+.nav ul a {
+    position: relative;
+    display: flex;
+    margin: auto;
 }
 
 /*
