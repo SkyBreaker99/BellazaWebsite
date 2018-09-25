@@ -3,7 +3,7 @@
     padding: 0;
     color: white;
     font-size: 1em;
-    box-sizing: border-box;
+/*    box-sizing: border-box;*/
 }
 
 span {
@@ -15,6 +15,74 @@ body {
     background-image: url(material/Website_Back.png);
     max-width: 1920px;
     height: 3000px;
+    position: relative;
+}
+
+.footerup {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0px;
+}
+
+.footerup img {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+}
+
+.footerup ul {
+    position: absolute;
+    bottom: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footerup li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    width: 16.66%;
+    border-left: 1px solid white;
+}
+
+.Discord {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    transition: transform .2s;
+}
+
+.Discord:hover {
+    transform: scale(1.2);
+}
+
+.Twitter {
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    transition: transform .2s;
+}
+
+.Twitter:hover {
+    transform: scale(1.2);
+}
+
+.footerup p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    top: 18%;
+    position: absolute;
+    z-index: 1;
 }
 
 .head {
@@ -40,7 +108,6 @@ body {
 }
 
 .overhead {
-    max-width: 382px;
     height: 5vh;
     display: flex;
     flex-direction: row;
@@ -50,9 +117,45 @@ body {
     margin-left: 5px;
     position: relative;
     display: flex;
+}
+
+.nav {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: row;
     width: 100%;
 }
 
+.nav ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.nav li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    width: 500%;
+    border-left: 1px solid white;
+}
+
+.nav p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav ul img {
+    width: 40%;
+}
+
+/*
 .nav {
     border: 1px solid green;
     margin-top: 20px;
@@ -71,11 +174,20 @@ body {
 .nav ul img {
     width: 100%;
 }
+*/
+
+.Tab1 {
+    position: relative;
+}
+
+.Tab1:hover {
+    position: 
+}
 
 .news {
     border: 1px solid yellow;
     margin: 10px 60px 0px 60px;
-    width: 100%;
+    width: 93.2.3%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -83,7 +195,7 @@ body {
 
 .newsmain {
     border: 1px solid green;
-    margin: 10px 5px 7px 0px;
+    margin: 10px 5px 0px 0px;
     width: 930px;
     height: 100%;
     position: relative;
@@ -93,8 +205,9 @@ body {
 
 .textmain {
     position: absolute;
-    top: 502px;
-    left: 10px;
+    font-family: TYPOGRAPH PRO;
+    top: 87%;
+    left: 2%;
 }
 
 .newsmain ul {
@@ -107,8 +220,8 @@ body {
 
 .newsside {
     border: 1px solid purple;
-    margin: 10px 0px 7px 0px;
-    width: 461px;
+    margin: 10px 0px 0px 0px;
+    width: 462px;
     position: relative;
     break-after: always;
     page-break-after: always;
@@ -133,7 +246,7 @@ body {
 
 .newsdown {
     border: 1px solid purple;
-    margin: 10px 0px 10px 0px;
+    margin: 5px 0px 10px 0px;
     position: relative;
     width: 1400px;
     clear:both;
@@ -151,19 +264,19 @@ body {
 
 .newsdown1 {
     height: 100%;
-    margin-right: 3.55px;
+    margin-right: 3px;
 }
 
 .newsdown2 {
     height: 100%;
-    margin-left: 3.55px;
-    margin-right: 3.55px;
+    margin-left: 3px;
+    margin-right: 3px;
     
 }
 
 .newsdown3 {
     height: 100%;
-    margin-left: 3.55px;
+    margin-left: 3px;
 }
 
 .newslist {
@@ -209,3 +322,4 @@ body {
     height: 91%;
     margin: 10px 10px 10px 10px
 }
+
